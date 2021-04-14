@@ -7,7 +7,7 @@ docker build -t docker-lecture .
 
 Docker image runnen als container:
 ```
-docker run -d -p 80:80/tcp --name docker-lecture0 docker-lecture
+docker run -d -p 80:80 --name docker-lecture0 docker-lecture
 ```
 
 Draaiende Docker containers inzien:
